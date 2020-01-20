@@ -219,10 +219,10 @@ class PlaidModule internal constructor(reactContext: ReactApplicationContext) :
       }
       this.callback?.invoke(result)
     } else {
-      if (data.extras != null) {
-        result.putMap(DATA, Arguments.makeNativeMap(data.extras))
-      }
-      this.callback?.invoke(result)
+      // if (data.extras != null) {
+        // result.putMap(DATA, Arguments.makeNativeMap(data.extras))
+      // }
+      // this.callback?.invoke(result)
     }
   }
 
